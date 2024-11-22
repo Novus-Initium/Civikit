@@ -1,4 +1,4 @@
-# 🏗 Civkit
+# 🏗 SGS soon to be Civkit
 
 <h4 align="center">
   <a href="https://civikit.vercel.app">Live Civikit UI</a> |
