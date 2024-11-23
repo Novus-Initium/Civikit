@@ -1,4 +1,4 @@
-# 🏗 SGS soon to be Civkit
+# 🏗 Civikit (Previously Scaffold-Grants-Stack_
 
 <h4 align="center">
   <a href="https://civikit.vercel.app">Live Civikit UI</a> |
@@ -6,7 +6,37 @@
   <a href="https://github.com/allo-protocol">Gitcoin Allo</a>
 </h4>
 
-🧪 An open-source toolkit for building decentralized grant stacks and various capital allocation and accountability platforms, tools, as well as various other things for the Ethereum and EVM blockchains. It's designed to make it easier for developers to create and deploy custom smart contracts and build more easily edit user interfaces that interact with a custom version of the Allo v1 contracts, with abstracted components to make it easier to understand, modify, experiment, and learn with.
+🧪 An open-source SDK for building and experimenting with customizable governance mechanisms and capital allocation strategies. Built on Scaffold-ETH-2 and integrated with Allo Protocol v2.1, CiviKit makes it easier for developers to create, test, and deploy governance systems for DAOs and grant programs.
+
+⚙️ Built using Scaffold-ETH-2, Allo Protocol, EAS (Ethereum Attestation Service), NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
+
+[Mermaid diagram here]
+
+## ✨ Features
+
+- 🔄 **Modular Governance Mechanisms**: Mix and match different voting systems, reputation tracking, and capital allocation strategies
+  - Quadratic Voting & Tunable Quadratic Funding
+  - Conviction Voting
+  - Custom Allocation Strategies
+  - Token Gating
+
+- 🏦 **Capital Allocation Systems**:
+  - Integration with Allo Protocol v2.1
+  - Cookie Jar mechanisms
+  - Direct funding systems
+  - Custom allocation strategies
+
+- 📊 **Reputation Systems**:
+  - EAS integration for attestations
+  - Historical performance tracking
+  - Reputation-weighted governance
+  - Sybil resistance through Worldcoin
+
+- 🔗 **Integration Layer**:
+  - Strategy Registry for mechanism discovery
+  - Mechanism Router for combining strategies
+  - DAO Factory for quick deployment
+  - Contract Hot Reload for rapid development
 
 - ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it! Customize your grant stack and automatically generate web-hooks for custom contracts and functions. 
 - 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
