@@ -1,4 +1,4 @@
-# 🏗 Civikit (Previously Scaffold-Grants-Stack_
+# 🏗 Civikit (Previously Scaffold-Grants-Stack)
 
 <h4 align="center">
   <a href="https://civikit.vercel.app">Live Civikit UI</a> |
